@@ -1,0 +1,126 @@
+<!--Tyler Ray Michael Egner-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <a href="table.html">Home</a>
+    <a href="idk.html">OOP</a>
+    <a href="strings.html">Palindrome Checker</a> <!--href links for my other projects, i also put links in those html files to navigate between pages seamlessly-->
+    <a href="game.html">Game</a>
+    <a href="useruser.html">User Validation</a>
+    <style>
+/*A lot of Inline CSS, I created a few divs for images to decorate my page, i also had to size them and position them to my liking (lots of debugging and running)*/
+        body {
+        height: 100vh;
+        overflow: hidden;
+        background:
+        url('Sub Shop.jpg') 
+        center / 100%;
+    }
+        table {
+    width: 100%;
+    border-collapse: collapse;
+        }
+        th {                                            /*CSS to style the columns or the "table header" */
+            background-color: dodgerblue;
+            color:antiquewhite;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+        }
+        td {                                            /* CSS to style my ingredient rows or table data, text color, and background, plus the thickness of the border line */
+            background-color: paleturquoise;
+            color: orangered;
+            border: 2px solid black;
+            padding: 6px;
+            text-align: center;
+        }
+        .sub {
+            position: fixed;
+            bottom: -90px;
+            right: -70px;
+
+        }
+        .sub img {
+            width: 500px;
+            height: 400px;
+            transform: rotate(25deg);
+        }
+        .tomato {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+        }
+        .tomato img {
+            width: 250px;
+            height: 250px;
+        }
+        .cheese {
+            position: fixed;
+            bottom: 25px;
+            left: 250px;
+        }
+        .cheese img {
+            width: 350px;
+            height: 200px;
+            transform: rotate(15deg);
+        }
+        .meat {
+            position: fixed;
+            bottom: 5px;
+            right: 350px;
+        }
+        .meat img {
+            width: 350px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SANDWICHES COME GET YOUR SANDWICHES</h1>
+    <h2>MENU<br>
+        Note: Sauces are next to the soda machines, Thank You!
+    <table>         <!--Start of the table element-->
+<tr>                 <!--Start of first row-->
+    <th>Bread</th>  <!-- Header cell for the first column-->
+    <th>Cheese</th> <!--Second Column-->
+    <th>Meat</th> <!--And so on-->
+    <th>Toppings</th>
+</tr>                       <!--/end of first table row-->
+<tr>                        <!--Start of second row-->
+    <td>Ciabatta</td>    <!--Data cell for 1st column-->
+    <td>Swiss</td>          <!--2nd column-->
+    <td>Turkey</td>         <!--3rd-->
+    <td>Spinach</td>        <!--4th-->
+</tr>
+<tr>
+    <td>Sourdough</td>
+    <td>American</td>
+    <td>Roast Beef</td>
+    <td>Onion</td>
+</tr>    
+<tr>
+    <td>Baguette</td>
+    <td>Fresh Mozz.</td>
+    <td>Pastrami</td>
+    <td>Lettuce</td>
+</tr>    
+<tr>
+    <td>White Bread</td>
+    <td>Cheddar</td>
+    <td>Ham</td>
+    <td>Tomato</td>
+</tr>            
+</table>
+<div class="sub"><img src="YUM.png">        <!--These are all my png images-->
+</div>
+<div class="tomato"><img src="tomato.png">
+</div>
+<div class="cheese"><img src="cheese.png">
+</div>
+<div class="meat"><img src="meat.png">
+</div>
+</body>
+</html>
